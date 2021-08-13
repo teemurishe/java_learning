@@ -79,5 +79,13 @@ public class Main {
         //int sum = 4 + a + b;
         System.out.println("sum = " + sum);
 
+        //task 5
+		a = 2;
+		b = 4;
+		int c = 18;
+		int d = 2;
+		int result = (a + b + c) / d;
+		System.out.println("Lessons remaining: " + result + " ones");
+
 	}
 }
