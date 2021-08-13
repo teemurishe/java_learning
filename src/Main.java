@@ -1,8 +1,9 @@
 public class Main {
 	public static void main(String[] args) {
+
 		//data types
 		int health = 10;
-		int medKit = 30
+		int medKit = 30;
 		String name = "Johns";
 		double damage = 35.5;
 		boolean isAlive = true;
@@ -22,5 +23,35 @@ public class Main {
 
 		health += medKit;
 		System.out.println("You took a kit. Yout health is " + health);
+
+		//hometask
+
+		//task 1
+		System.out.println("                        .8 ");
+        System.out.println("                      .888");
+        System.out.println("                    .8888");
+        System.out.println("                   .8888");
+        System.out.println("                   888");
+        System.out.println("                   8");
+        System.out.println("      .88888888888. .88888888888.");
+        System.out.println("   .8888888888888888888888888888888.");
+        System.out.println(" .8888888888888888888888888888888888.");
+        System.out.println(".&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'");
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'");
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'");
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:");
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:");
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:");
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.");
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.");
+        System.out.println("`%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.");
+        System.out.println(" `00000000000000000000000000000000000'");
+        System.out.println("  `000000000000000000000000000000000'");
+        System.out.println("   `0000000000000000000000000000000'");
+        System.out.println("     `###########################'");
+        System.out.println("       `#######################'");
+        System.out.println("         `#########''########'");
+        System.out.println("           `'''''''  `''''''");
+
 	}
 }
