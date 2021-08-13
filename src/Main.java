@@ -63,5 +63,10 @@ public class Main {
         System.out.println(x);
         System.out.println(y);
 
+        //task 3
+        name = "Timur";
+        String text = "Hello, " + name + "!";
+        System.out.println(text);
+
 	}
 }
