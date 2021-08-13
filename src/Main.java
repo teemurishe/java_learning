@@ -68,5 +68,16 @@ public class Main {
         String text = "Hello, " + name + "!";
         System.out.println(text);
 
+        //task 4
+        int a = 4;
+        //int a = 10;
+        int b = 7;
+        //int b = 12;
+        //int sum = 1 + a + b;
+        //int sum = 2 + a + b;
+        int sum = 9 + a + b;
+        //int sum = 4 + a + b;
+        System.out.println("sum = " + sum);
+
 	}
 }
