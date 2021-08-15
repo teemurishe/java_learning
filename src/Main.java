@@ -94,6 +94,8 @@ public class Main {
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Random;
+
 public class Main {
     static void sum_self(int num1, int num2){
         System.out.println(num1 + num2);
@@ -104,11 +106,17 @@ public class Main {
         BufferedReader(new
             InputStreamReader(System.in)); //setting up input
 
-
+        Random random = new Random();
         int a = Integer.parseInt(reader.readLine()); //inputting numbers
         int b = Integer.parseInt(reader.readLine());
         int result = a + b;
         int result2 = Integer.sum(a, b); //summing numbers with a method
         System.out.println(result);
+
+        double num = 1.0 / 7;
+        System.out.println(String.format("%.2f", num));
+
+        int num3 = random.nextInt(30);
+        System.out.println(num3);
     }
 }
