@@ -1,3 +1,4 @@
+/* lesson 1
 public class Main {
 	public static void main(String[] args) {
 
@@ -88,4 +89,26 @@ public class Main {
 		System.out.println("Lessons remaining: " + result + " ones");
 
 	}
+}
+*/
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class Main {
+    static void sum_self(int num1, int num2){
+        System.out.println(num1 + num2);
+    }
+
+    public static void main(String[] args) throws IOException { 
+        BufferedReader reader = new
+        BufferedReader(new
+            InputStreamReader(System.in)); //setting up input
+
+
+        int a = Integer.parseInt(reader.readLine()); //inputting numbers
+        int b = Integer.parseInt(reader.readLine());
+        int result = a + b;
+        int result2 = Integer.sum(a, b); //summing numbers with a method
+        System.out.println(result);
+    }
 }
