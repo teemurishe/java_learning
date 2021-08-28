@@ -118,5 +118,13 @@ public class Main {
 
         int num3 = random.nextInt(30);
         System.out.println(num3);
+
+        //task 1
+        a = Integer.parseInt(reader.readLine());
+        b = Integer.parseInt(reader.readLine());
+        int c = Integer.parseInt(reader.readLine());
+        int d = Integer.parseInt(reader.readLine());
+        result = a * (b + (c / d));
+        System.out.println(result);
     }
 }
