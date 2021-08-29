@@ -95,6 +95,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     static void sum_self(int num1, int num2){
@@ -126,5 +127,10 @@ public class Main {
         int d = Integer.parseInt(reader.readLine());
         result = a * (b + (c / d));
         System.out.println(result);
+
+        //task 2
+        Scanner nameInput = new Scanner(System.in); //input a string
+        String name = nameInput.nextLine(); //getting input data
+        System.out.println("Hello, " + name + "!");
     }
 }
