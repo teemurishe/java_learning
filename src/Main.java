@@ -136,5 +136,8 @@ public class Main {
         //task 3
         float float_a = random.nextFloat();
         System.out.println(String.format("%.3f", float_a));
+
+        //task 4
+        System.out.println(a + " " + b + " " + c + " " + d);
     }
 }
