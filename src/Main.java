@@ -132,5 +132,9 @@ public class Main {
         Scanner nameInput = new Scanner(System.in); //input a string
         String name = nameInput.nextLine(); //getting input data
         System.out.println("Hello, " + name + "!");
+
+        //task 3
+        float float_a = random.nextFloat();
+        System.out.println(String.format("%.3f", float_a));
     }
 }
