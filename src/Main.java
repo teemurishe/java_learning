@@ -139,5 +139,14 @@ public class Main {
 
         //task 4
         System.out.println(a + " " + b + " " + c + " " + d);
+
+        //task 5
+        int year = Integer.parseInt(reader.readLine());
+
+        if( year % 4 == 0 & year % 400 == 0){
+            System.out.print("The year is leap");
+        }else{
+            System.out.print("The year isn't leap");
+        }
     }
 }
