@@ -217,7 +217,11 @@ public class Main {
        //task 4
        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
        int n = Integer.parseInt(reader.readLine());
-       System.out.println("With Java I would earn " + n + " thousand rubles per hour.");   }
+       System.out.println("With Java I would earn " + n + " thousand rubles per hour.");
+       //task 5
+       int year = Integer.parseInt(reader.readLine());
+       leap(year);
+   }
 
    public static void sum(int a, int b) {
        int c = a + b;
@@ -240,6 +244,14 @@ public class Main {
            System.out.println("I");
            System.out.println("learn");
            System.out.println("Java");
+       }
+   }
+   public static void leap(int year) {
+       if (year % 4 == 0 & year % 100 != 0 | year % 400 == 0) {
+           System.out.println("The year is leap");
+       }
+       else {
+           System.out.println("The year isn't leap");
        }
    }
 }
