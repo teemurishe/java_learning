@@ -205,7 +205,7 @@ import java.util.Locale;
 */
 
 public class Main {
-   public static void main(String[] args) {
+   public static void main(String[] args) throws IOException{
        //task 1
        sum(5, 5);
        //task 2
@@ -214,7 +214,10 @@ public class Main {
        text("Java is crossplatform!");
        //task 3
        javaLearn();
-   }
+       //task 4
+       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+       int n = Integer.parseInt(reader.readLine());
+       System.out.println("With Java I would earn " + n + " thousand rubles per hour.");   }
 
    public static void sum(int a, int b) {
        int c = a + b;
