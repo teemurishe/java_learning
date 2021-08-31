@@ -208,10 +208,19 @@ public class Main {
    public static void main(String[] args) {
        //task 1
        sum(5, 5);
+       //task 2
+       text("Java coding is easy!");
+       text("Kava is an OOP language!");
+       text("Java is crossplatform!");
    }
 
    public static void sum(int a, int b) {
        int c = a + b;
        System.out.print(c);
+   }
+   public static void text(String text) {
+       for (int i = 0; i < 2; i++) {
+           System.out.println(text);
+       }
    }
 }
