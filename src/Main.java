@@ -212,6 +212,8 @@ public class Main {
        text("Java coding is easy!");
        text("Kava is an OOP language!");
        text("Java is crossplatform!");
+       //task 3
+       javaLearn();
    }
 
    public static void sum(int a, int b) {
@@ -221,6 +223,20 @@ public class Main {
    public static void text(String text) {
        for (int i = 0; i < 2; i++) {
            System.out.println(text);
+       }
+   }
+   public static void javaLearn() {
+       for (int i = 0; i < 10; i++) {
+           System.out.println("I");
+           System.out.println("want to");
+           System.out.println("create");
+           System.out.println("cool");
+           System.out.println("games,");
+           System.out.println("that's");
+           System.out.println("why");
+           System.out.println("I");
+           System.out.println("learn");
+           System.out.println("Java");
        }
    }
 }
