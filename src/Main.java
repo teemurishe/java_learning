@@ -156,7 +156,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Locale;
 
-public class Main {
+/*public class Main {
     public static void main(String[] args) throws IOException {
        System.out.println("Question 1. What's the number of our planet in Solar System?");
        int rightAnswer = 3;
@@ -202,41 +202,16 @@ public class Main {
        }
    }
 }
-
+*/
 
 public class Main {
    public static void main(String[] args) {
        //task 1
        sum(5, 5);
-       //task 2
-       text("Java coding is easy!");
-       text("Kava is an OOP language!");
-       text("Java is crossplatform!");
-       //task 3
-       javaLearn();
    }
 
    public static void sum(int a, int b) {
        int c = a + b;
        System.out.print(c);
-   }
-   public static void text(String text) {
-       for (int i = 0; i < 2; i++) {
-           System.out.println(text);
-       }
-   }
-   public static void javaLearn() {
-       for (int i = 0; i < 10; i++) {
-           System.out.println("I");
-           System.out.println("want to");
-           System.out.println("create");
-           System.out.println("cool");
-           System.out.println("games,");
-           System.out.println("that's");
-           System.out.println("why");
-           System.out.println("I");
-           System.out.println("learn");
-           System.out.println("Java");
-       }
    }
 }
