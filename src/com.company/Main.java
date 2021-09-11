@@ -151,10 +151,14 @@ public class Main {
     }
 }
 */
+package com.company;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Locale;
+import java.util.Scanner;
+import com.company.Cat;
 
 /*public class Main {
     public static void main(String[] args) throws IOException {
@@ -204,6 +208,7 @@ import java.util.Locale;
 }
 */
 
+/*
 public class Main {
    public static void main(String[] args) throws IOException{
        //task 1
@@ -254,4 +259,28 @@ public class Main {
            System.out.println("The year isn't leap");
        }
    }
+}*/
+
+//lesson 6
+public class Main {
+    /*public static void main(String args[]) {
+        Cat cat1 = new Cat("Oliver", 6);
+        Cat cat2 = new Cat("Pumpin", 5);
+        cat1.sayMeow();
+        cat2.sayMeow();
+    }*/
+
+    public static void main(String args[]) {
+        Person[] persArray = new Person[5];
+        persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", 30000, 30);
+        persArray[1] = new Person("Dasha Koreyka", "ABOBA", "kareykadasha@tiktok.com", "12121212121", 12000, 12);
+        persArray[2] = new Person("Alexey Shevtsov", "Expert", "itpedia@plaza.agency", "+380635993686", 1000000000000, 165125)
+        persArray[3] = new Person("Igor Tokac", "Kreslo master", "igorchezh@kreslo.com", "88005553535", 666666666, 32)
+        persArray[4] = new Person("Valeriy Albetovich", "Amogus", "amogus@aboba.ru", "66666666666", 13, 40);
+        for (i = ; i > persArray.length; i ++) {
+            if (i.age > 40) {
+                System.out.println(repsArray);
+            }
+        }
+    }
 }
