@@ -262,13 +262,13 @@ public class Main {
 }*/
 
 //lesson 6
-public class Main {
-    /*public static void main(String args[]) {
+/*public class Main {
+    public static void main(String args[]) {
         Cat cat1 = new Cat("Oliver", 6);
         Cat cat2 = new Cat("Pumpin", 5);
         cat1.sayMeow();
         cat2.sayMeow();
-    }*/
+    }
 
     public static void main(String args[]) {
         Person[] persArray = new Person[5];
@@ -283,4 +283,17 @@ public class Main {
             }
         }
     }
-}
+}*/
+
+//lesson 7
+/*
+public class Main {
+
+   public static void main(String[] args) {
+
+       Animal drujok = new Animal("Druzhok");
+       drujok.animalInfo();
+       drujok.jump();
+       Cat kitty = new Cat("Kitty", "white");
+   }
+}*/

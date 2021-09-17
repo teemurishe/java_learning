@@ -1,15 +1,18 @@
-package com.company;
+public class Cat extends Animal {
 
-public class Cat {
-	String name;
-	int age;
-
-	public void sayMeow() {
-		System.out.println(name + " meowed");
-	}
-
-	public Cat(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
+   @Override
+   public void speak() {
+		System.out.println("Meow");
+   }
+   public void run(run_length) {
+      if (run_dist < 200) {
+         System.out.println(name + " has run " + run_dist + "meters");
+      }
+      else {
+         break;
+      }
+   }
+   public void swim() {
+      System.out.println("Cats can't swim!");
+   }
 }
